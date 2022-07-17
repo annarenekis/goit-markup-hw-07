@@ -1,15 +1,15 @@
 /* footer */
 .footer {
-  background-color: var(--additional-bg-color);
+  background-color: $additional-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
 
   &-text {
-    color: var(--additional-text-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    color: $additional-text-color;
+    font-weight: $fweight700;
+    font-size: $fsize14;
+    line-height: $lheight;
+    letter-spacing: $lspace;
     text-transform: uppercase;
     margin-bottom: 20px;
   }
@@ -29,18 +29,17 @@
     margin-top: 20px;
 
     &-link {
-      color: var(--additional-text-color);
+      color: $additional-text-color;
     }
     &-link {
-      font-weight: 400;
-      font-size: 14px;
+      font-size: $fsize14;
       line-height: 1.71;
-      letter-spacing: 0.03em;
+      letter-spacing: $lspace;
 
       &.hover:hover,
       &.hover:focus {
-        color: var(--accent-color);
-        fill: var(--accent-color);
+        color: $accent-color;
+        fill: $accent-color;
       }
     }
   }
@@ -52,12 +51,12 @@
 
     &:hover,
     &:focus {
-      color: var(--accent-color);
-      fill: var(--accent-color);
+      color: $accent-color;
+      fill: $accent-color;
     }
   }
   &-sites-icon {
-    fill: var(--additional-text-color);
+    fill: $additional-text-color;
   }
   &-links {
     margin-left: 70px;
@@ -73,7 +72,7 @@
 }
 
 .word-studio-footer {
-  color: var(--additional-text-color);
+  color: $additional-text-color;
 }
 
 .subscription-input {
@@ -86,14 +85,14 @@
   padding: 15px 16px 15px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
+  font-size: $fsize16;
   line-height: 1.25;
   margin-right: 12px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    outline: 1px solid var(--accent-color);
+    outline: 1px solid $accent-color;
   }
 }
 

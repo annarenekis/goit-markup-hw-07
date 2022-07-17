@@ -4,13 +4,13 @@
 
   &-text {
     text-transform: uppercase;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
     margin: 0;
     position: absolute;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    font-weight: $fweight700;
+    font-size: $fsize14;
+    line-height: $lheight;
+    letter-spacing: $lspace;
     background: rgba(47, 48, 58, 0.8);
     width: 100%;
     height: 70px;

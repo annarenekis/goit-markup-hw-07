@@ -16,13 +16,13 @@
   &-title {
     margin-top: 0;
     margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 44px;
+    font-weight: $fweight900;
+    font-size: $fsize44;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: $lspacebtn;
     text-transform: uppercase;
-    color: var(--additional-text-color);
+    color: $additional-text-color;
   }
 
   &-button {

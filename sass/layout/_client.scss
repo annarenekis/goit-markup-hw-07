@@ -11,12 +11,12 @@
 
   &:hover,
   &:focus {
-    border: solid 1px var(--accent-color);
+    border: solid 1px $accent-color;
   }
 
   &:hover .clients-icon,
   &:focus .clients-icon {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
 }
 

@@ -11,10 +11,10 @@
 
   &:hover,
   &:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     & .team-sites-icon,
     & .team-sites-icon {
-      fill: var(--additional-text-color);
+      fill: $additional-text-color;
     }
   }
 }
