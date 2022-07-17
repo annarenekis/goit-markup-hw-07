@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--title-text-color);
+}
+
+img,
+.link {
+  display: block;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration-line: none;
+}
+address {
+  display: block;
+  font-style: normal;
+}
