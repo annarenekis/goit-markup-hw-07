@@ -71,6 +71,14 @@ img,
   margin-right: 50px;
 }
 
+img,
+.link {
+  display: block;
+}
+.link {
+  text-decoration-line: none;
+}
+
 .header-portfolio {
   border-bottom: 1px solid #ececec;
 }
@@ -104,7 +112,6 @@ img,
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
 .nav-menu-link:hover,
 .nav-menu-link:focus,
 .footer-address-link.hover:hover,

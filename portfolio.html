@@ -15,7 +15,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
@@ -29,7 +28,7 @@
           >
           <ul class="nav-menu list">
             <li class="nav-menu-li">
-              <a href="./index.html" class="nav-menu-link current link"
+              <a href="./index.html" class="nav-menu-link link current"
                 >Студия</a
               >
             </li>
@@ -71,7 +70,7 @@
           <h1 class="hidden">Портфолио</h1>
           <ul class="portfolio-filter-menu list">
             <li>
-              <button class="portfolio-filter-item current button">Все</button>
+              <button class="portfolio-filter-item button current">Все</button>
             </li>
             <li>
               <button class="portfolio-filter-item button">Веб-сайты</button>
@@ -386,13 +385,14 @@
             <p class="subscription-text text footer-text">
               Подпишитесь на рассылку
             </p>
-            <label for="email"></label>
+            <label for="email-footer"></label>
             <div class="subscription-div">
               <input
                 class="subscription-input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
+                id="email-footer"
               />
               <button type="submit" class="subscription-button button">
                 <span class="subscription-btn-text">Подписаться</span>
