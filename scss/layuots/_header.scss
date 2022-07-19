@@ -1,0 +1,109 @@
+/*======Header======*/
+
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+}
+.header__portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  font-family: $logoffamily;
+  font-weight: $fweight700;
+  font-size: $fsize26;
+  line-height: 1.19;
+  letter-spacing: $lspace;
+  color: $accent-color;
+
+  margin-right: 93px;
+
+  &__dark {
+    color: $title-text-color;
+  }
+  &:hover,
+  &:focus,
+  &__dark:hover,
+  &__dark:focus {
+    color: $accent-color;
+  }
+}
+
+.nav__item {
+  margin-right: 50px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__link {
+  position: relative;
+  font-size: $fsize14;
+  font-weight: $fweight500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $title-text-color;
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+
+  margin-left: auto;
+}
+
+.contacts__item {
+  margin-right: 50px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.contacts__link {
+  font-weight: $fweight500;
+  font-size: $fsize14;
+  line-height: $lheight;
+  letter-spacing: 0.02em;
+
+  color: $primary-text-color;
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+/*=======Контакты иконки=====*/
+.contacts__icon {
+  margin-right: 10px;
+
+  fill: $primary-text-color;
+
+  transition-property: fill;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  .contacts__link:hover &,
+  .contacts__link:focus & {
+    fill: $accent-color;
+  }
+}

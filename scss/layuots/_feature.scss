@@ -1,0 +1,42 @@
+/*Особенности*/
+
+.feature__item {
+  width: 270px;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feature__subtitle {
+  font-size: $fsize14;
+  font-weight: $fweight700;
+  line-height: $lheight;
+  letter-spacing: $lspace;
+  color: $title-text-color;
+
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+.feature__description {
+  font-size: $fsize14;
+  line-height: 1.71;
+  letter-spacing: $lspace;
+  color: $primary-text-color;
+}
+
+/*======Особености иконки========*/
+.feature__group {
+  width: 270px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: $grey-bg-color;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
