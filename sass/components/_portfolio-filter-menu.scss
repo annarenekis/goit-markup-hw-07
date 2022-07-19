@@ -1,32 +1,35 @@
 /* filter-menu */
-.portfolio-filter-menu {
+
+.filter {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-
-  & > li:not(:first-child) {
-    margin-left: 8px;
-  }
 }
-.portfolio-filter-item {
-  font-weight: $fweight500;
-  font-size: $fsize16;
+.filter__item {
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: $lspace;
-  color: $title-text-color;
-  border: $grey-bg-color;
-  background-color: $grey-bg-color;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  border: var(--grey-bg-color);
+  background-color: var(--grey-bg-color);
   padding: 6px 22px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  &:hover,
-  &:focus,
-  &.current {
-    color: $additional-text-color;
-    background-color: $accent-color;
-  }
+.filter__item:hover,
+.filter__item:focus,
+.filter__item.current {
+  color: var(--additional-text-color);
+  background-color: var(--accent-color);
+}
+
+.filter > li:not(:first-child) {
+  margin-left: 8px;
+}
+.filter__item {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -1,12 +1,11 @@
+//Base
+
+@import './base/common';
 // Utils
 
 @import './utils/global-settings';
 @import './utils/hidden';
 @import './utils/variables';
-
-//Base
-
-@import './base/common';
 
 // Components
 
@@ -20,10 +19,9 @@
 @import './layout/header';
 @import './layout/hero';
 @import './layout/advantages';
-@import './layout/activity';
+@import './layout/about';
 @import './layout/team';
 @import './layout/client';
 @import './layout/footer';
-
 // Components
 @import './components/backdrop';
