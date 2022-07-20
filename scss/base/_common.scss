@@ -3,13 +3,13 @@ body {
   color: $title-text-color;
 }
 
-.section {
+.section.padding {
   padding-top: 94px;
   padding-bottom: 94px;
-
-  &__about {
-    padding-top: 0;
-  }
+}
+.section.padding-bottom {
+  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .nav__item .nav__link--current {

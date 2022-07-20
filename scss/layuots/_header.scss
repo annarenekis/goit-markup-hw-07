@@ -1,12 +1,8 @@
 /*======Header======*/
 
-.header {
-  &__container {
-    display: flex;
-    align-items: center;
-  }
-}
-.header__portfolio {
+.header__container {
+  display: flex;
+  align-items: center;
   border-bottom: 1px solid #ececec;
 }
 
