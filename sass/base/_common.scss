@@ -1,0 +1,10 @@
+body {
+    background-color: var(--rpimary-color);
+    font-family: var(--main-font), sans-serif;
+
+    &.no-scroll {
+            overflow: hidden;
+        }
+}
+
+ 

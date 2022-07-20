@@ -1,0 +1,147 @@
+button {
+  border: transparent;
+  cursor: pointer;
+}
+
+.hero__button {
+  font-family: inherit;
+  color: var(--rpimary-color);
+  background-color: var(--accent-color);
+  padding: 10px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition: background-color var(--anim-slow), box-shadow var(--anim-slow);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-second-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.portfolio-button {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.portfolio-button .button-portfolio--current {
+  color: var(--rpimary-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-button__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+.button-portfolio {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--second-section-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  transition: color var(--anim-slow), background-color var(--anim-slow), box-shadow var(--anim-slow);
+
+  &:hover,
+  &:focus {
+    color: var(--rpimary-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.footer-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--rpimary-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  &:hover,
+  &:focus {
+    background-color: var(--accent-second-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.footer-button__icon {
+  fill: var(--rpimary-color);
+  margin-left: 10px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  margin-top: 8px;
+  margin-right: 8px;
+  background-color: var(--rpimary-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+
+.modal-button-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--rpimary-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  transition: var(--anim-slow);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-second-color);
+  }
+}

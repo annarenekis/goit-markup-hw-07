@@ -1,0 +1,25 @@
+.modal-label-terms {
+    margin-bottom: 30px;
+}
+
+.terms-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.modal-agreement {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+
+    user-select: none;
+}
+
+.modal-text-terms {
+    color: var(--accent-color);
+    text-decoration: underline;
+}

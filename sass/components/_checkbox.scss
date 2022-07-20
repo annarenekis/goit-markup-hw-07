@@ -1,0 +1,22 @@
+.modal-checkbox-custom {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 15px;
+    outline: 1px solid #000000;
+    outline-offset: -1px;
+    border-radius: 2px;
+
+    transition: outline-color 250ms, background-color 250ms;
+}
+
+.modal-checkbox-input:checked+.modal-checkbox-custom {
+    background-color: var(--accent-color);
+    outline-color: var(--accent-color);
+
+}
+
+.modal-checkbox-icon {
+    fill: var(--rpimary-color);
+}

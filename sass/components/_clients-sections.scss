@@ -1,0 +1,26 @@
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+  background-color: var(--rpimary-color);
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+
+  transition: border-color var(--anim-slow);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+
+  &:hover .clients__icon,
+  &:focus .clients__icon {
+    fill: var(--accent-color);
+  }
+}
+
+.clients__icon {
+  fill: var(--icons-color);
+  transition: fill var(--anim-slow);
+}
