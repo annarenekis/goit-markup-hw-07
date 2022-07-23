@@ -1,10 +1,16 @@
 .card-set {
+  @media screen and(min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and(min-width: 1200px) {
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin: calc(-1 * var(--indent) / 2);
+  }
 }
 
 .card-set__item {
-    margin: calc(var(--indent) / 2);
-    flex-basis: calc((100% - (var(--items)) * var(--indent)) / var(--items));
+  margin: calc(var(--indent) / 2);
+  flex-basis: calc((100% - (var(--items)) * var(--indent)) / var(--items));
 }
