@@ -53,7 +53,8 @@ button {
   line-height: 1.62;
   letter-spacing: 0.03em;
 
-  transition: color var(--anim-slow), background-color var(--anim-slow), box-shadow var(--anim-slow);
+  transition: color var(--anim-slow), background-color var(--anim-slow),
+    box-shadow var(--anim-slow);
 
   &:hover,
   &:focus {
@@ -69,7 +70,7 @@ button {
   justify-content: center;
   align-items: center;
 
-  margin-left: 12px;
+  // margin-left: 12px;
   width: 200px;
   height: 50px;
 
@@ -85,6 +86,16 @@ button {
   &:focus {
     background-color: var(--accent-second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  @media screen and(max-width: 767px) {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1199px) {
+    margin-left: 12px;
   }
 }
 

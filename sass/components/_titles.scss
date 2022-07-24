@@ -4,11 +4,25 @@
   margin-bottom: 30px;
   color: var(--rpimary-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  // font-size: 44px;
+  // line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  @media screen and(max-width: 767px) {
+    font-size: 26px;
+    line-height: 1.61;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1199px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .feutures-title {
@@ -19,7 +33,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  @media screen and(min-width: 480px) {
+  @media screen and(max-width: 767px) {
     text-align: center;
   }
 }
@@ -36,31 +50,53 @@
 }
 
 .team__title {
-  padding-top: 94px;
-  margin-bottom: 50px;
+  // padding-top: 94px;
 
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17px;
   line-height: 100%;
   text-align: center;
   letter-spacing: 0.03em;
+
+  @media screen and(max-width: 767px) {
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 30px;
+  }
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1199px) {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
 }
 
 .clients__title {
-  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+
   text-align: center;
   letter-spacing: 0.03em;
+
+  @media screen and(max-width: 767px) {
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 30px;
+  }
+  @media screen and(min-width: 768px) {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+  @media screen and(min-width: 1199px) {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
 }
 
 .footer-social__title,
 .footer-mail__title {
-  margin-top: 15px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -68,4 +104,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--rpimary-color);
+
+  @media screen and(max-width: 767px) {
+    margin-top: 60px;
+  }
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1199px) {
+    margin-top: 15px;
+  }
 }

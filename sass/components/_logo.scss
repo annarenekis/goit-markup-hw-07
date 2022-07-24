@@ -1,17 +1,30 @@
 .logo {
-    color: var(--accent-color);
-    text-decoration: none;
-    font-family: var(--secundary-font), sans-serif;
-    font-weight: 700;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: var(--secundary-font), sans-serif;
+  font-weight: 700;
+
+  letter-spacing: 0.03em;
+
+  @media screen and(min-width: 480px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  @media screen and(min-width: 768px) {
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+  }
 
-    &-header {
-        color: var(--text-studio-color);
-    }
+  @media screen and(min-width: 1199px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 
-    &-footer {
-        color: var(--rpimary-color);
-    }
+  &-header {
+    color: var(--text-studio-color);
+  }
+
+  &-footer {
+    color: var(--rpimary-color);
+  }
 }
