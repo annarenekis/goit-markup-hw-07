@@ -58,21 +58,13 @@ img {
   height: auto;
 }
 
-@media screen and (min-width: 480px) {
-  .card-set {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .card-set {
-    width: 1200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: calc(-1 * var(--indent) / 2);
-  }
+.card-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: calc(-1 * var(--indent) / 2);
 }
 
 .card-set__item {
@@ -987,6 +979,11 @@ button {
 .activity {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+@media screen and (max-width: 767px) {
+  .activity {
+    display: none;
+  }
 }
 
 .team {
